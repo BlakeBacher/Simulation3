@@ -1,0 +1,16 @@
+.smallpost{
+    height: 50px;
+    width: 500px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 2px 2px 7px grey;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 320px;
+}
+.smallpost:hover{
+    box-shadow: 5px 5px 10px grey;
+}
+
