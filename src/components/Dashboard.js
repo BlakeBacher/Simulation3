@@ -45,16 +45,13 @@ export default class Dashboard extends Component {
                         title = {element.title}
                         image = {element.image}
                         content = {element.content}/>
-                    <
-                    
                 </div> 
             )
         })
         return (
             <div>
             <Nav/>
-                <div className = 'Dashboard'>
-                    <h1>Dashboard</h1>
+                <div className = 'search'>
                     <input type='text' className='' placeholder= 'Search' onChange = {(e) => this.handleChange(e.target.value)}/>
                 </div> 
                 <div>

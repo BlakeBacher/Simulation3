@@ -35,4 +35,14 @@
   padding: 10px;
   margin-top: 100px;
 }
+.search{
+  box-sizing: border-box;
+  padding: 12px 20px;
+  background-color: grey;
+}
+input[type=text]{
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+}
 
